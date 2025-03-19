@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+"# Java Reviews" 
+=======
 📌 Java Reviews
 Este repositório foi criado para revisar os conceitos fundamentais de Java, incluindo exemplos práticos e explicações sobre os principais tópicos da linguagem.
 
@@ -26,3 +29,4 @@ Explore os exemplos e execute os códigos conforme necessário.
 📌 Contribuição
 Sinta-se à vontade para sugerir melhorias ou adicionar novos exemplos via pull request!
 
+>>>>>>> b22464028bd312b3c24d5d6d4dbb560edf723274
