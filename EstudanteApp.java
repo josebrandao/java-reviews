@@ -12,10 +12,9 @@ public class EstudanteApp {
 		// Criando o objeto Usuario
 		Usuario usuario = new Usuario("java-kotlin-mestre","ashja89702","teste@test");
 	
-	
-	System.out.println("email: " + usuario.email);
-	System.out.println("Senha: " +usuario.password);
-	System.out.println("UserName: " + usuario.username);
-	System.out.println("Media: " + media);
+		System.out.println("email: " + usuario.email);
+		System.out.println("Senha: " +usuario.password);
+		System.out.println("UserName: " + usuario.username);
+		System.out.println("Media: " + media);
 
 }
