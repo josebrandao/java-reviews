@@ -1,6 +1,4 @@
 public class Usuario {
-<<<<<<< HEAD
-
     // Atributos do usuário
     public String username;
     public String password;
@@ -27,18 +25,13 @@ public class Usuario {
         System.out.println("E-mail: " + email);
         System.out.println("Ativo: " + isActive());
     }
+
+    // Método main: ponto de entrada da aplicação
+    public static void main(String[] args) {
+        // Criando um novo usuário com dados simulados
+        Usuario usuario = new Usuario("josebrandao", "senha123", "jose@example.com");
+
+        // Exibindo os dados do usuário no console
+        usuario.exibirInformacoes();
+    }
 }
-=======
-	
-	public String username;
-	public String password;
-	public String email;
-	public boolean ativo;
-	public boolean isActive(){
-		return ativo;
-		
-		
-	}
-	
-}
->>>>>>> 0f3ce5a4077e98f82977e183df6759f23f575332
