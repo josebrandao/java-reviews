@@ -11,10 +11,10 @@ public class Usuario {
         this.password = password;
         this.email = email;
         this.ativo = true;  // Definindo como ativo por padrão
-    // }
+    }
 
     // Método para verificar se o usuário está ativo
-    // public boolean isActive() {
+    public boolean isActive() {
         return ativo;
     }
 
