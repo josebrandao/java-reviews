@@ -25,12 +25,4 @@ public class Usuario {
         System.out.println("E-mail: " + email);
         System.out.println("Ativo: " + isActive());
     }
-
-    
-        // Criando um novo usuário com dados simulados
-        Usuario usuario = new Usuario("josebrandao", "senha123", "jose@example.com");
-
-        // Exibindo os dados do usuário no console
-        usuario.exibirInformacoes();
-  
 }
