@@ -10,7 +10,7 @@ public class EstudanteApp {
 		boolean aprovado = true;
 		
 		// Criando o objeto Usuario
-		Usuario usuario = new Usuario(username:"java-kotlin-mestre",password:"ashja89702",email:"teste@test");
+		Usuario usuario = new Usuario("java-kotlin-mestre","ashja89702","teste@test");
 	
 	
 	System.out.println("email: " + usuario.email);
