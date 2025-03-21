@@ -1,4 +1,5 @@
 public class Usuario {
+<<<<<<< HEAD
 
     // Atributos do usuário
     public String username;
@@ -27,3 +28,17 @@ public class Usuario {
         System.out.println("Ativo: " + isActive());
     }
 }
+=======
+	
+	public String username;
+	public String password;
+	public String email;
+	public boolean ativo;
+	public boolean isActive(){
+		return ativo;
+		
+		
+	}
+	
+}
+>>>>>>> 0f3ce5a4077e98f82977e183df6759f23f575332
