@@ -1,11 +1,4 @@
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
-
-public class Usuario extends Application {
+public class Usuario {
     // Atributos do usuário
     public String username;
     public String password;
@@ -18,19 +11,27 @@ public class Usuario extends Application {
         this.password = password;
         this.email = email;
         this.ativo = true;  // Definindo como ativo por padrão
-    }
+    // }
 
     // Método para verificar se o usuário está ativo
-    public boolean isActive() {
+    // public boolean isActive() {
         return ativo;
     }
 
     // Método para exibir as informações do usuário
-    public String exibirInformacoes() {
-        return "Usuário Criado:\n" +
-               "Nome de usuário: " + username + "\n" +
-               // "E-mail: " + email + "\n" +
-               "Ativo: " + isActive();
+    public void exibirInformacoes() {
+        System.out.println("Usuário Criado:");
+        System.out.println("Nome de usuário: " + username);
+        System.out.println("E-mail: " + email);
+        System.out.println("Ativo: " + isActive());
     }
 
-    // Método JavaFX: ponto de 
+    // Método main: ponto de entrada da aplicação
+    public static void main(String[] args) {
+        // Criando um novo usuário com dados simulados
+        Usuario usuario = new Usuario("josebrandao", "senha123", "jose@example.com");
+
+        // Exibindo os dados do usuário no console
+        usuario.exibirInformacoes();
+    }
+}
