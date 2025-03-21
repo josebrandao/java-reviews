@@ -5,6 +5,6 @@ public class Main {
         Usuario usuario = new Usuario("josebrandao", "senha123", "jose@example.com");
 
         // Exibindo os dados do usuário no console
-        usuario.exibirInformacoes();
+        
     }
 }
