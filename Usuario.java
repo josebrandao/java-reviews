@@ -29,37 +29,8 @@ public class Usuario extends Application {
     public String exibirInformacoes() {
         return "Usuário Criado:\n" +
                "Nome de usuário: " + username + "\n" +
-               "E-mail: " + email + "\n" +
+               // "E-mail: " + email + "\n" +
                "Ativo: " + isActive();
     }
 
-    // Método JavaFX: ponto de entrada para a interface gráfica
-    @Override
-    public void start(Stage primaryStage) {
-        // Criando um novo usuário com dados simulados
-        Usuario usuario = new Usuario("josebrandao", "senha123", "jose@example.com");
-
-        // Criando elementos gráficos
-        Label label = new Label(usuario.exibirInformacoes());
-
-        // Layout do JavaFX (VBox - Layout vertical)
-        VBox vbox = new VBox(10);
-        vbox.getChildren().add(label);
-
-        // Criando a cena (Scene)
-        Scene scene = new Scene(vbox, 300, 200);
-
-        // Configurando o palco (Stage)
-        primaryStage.setTitle("Informações do Usuário");
-        primaryStage.setScene(scene);
-
-        // Mostrando a interface gráfica
-        primaryStage.show();
-    }
-
-    // Método main: ponto de entrada da aplicação
-    public static void main(String[] args) {
-        // Inicia a aplicação JavaFX
-        launch(args);
-    }
-}
+    // Método JavaFX: ponto de 
