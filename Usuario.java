@@ -1,17 +1,29 @@
-import javafx.application.Application;
-import javafx.stage.Stage;
+public class Usuario {
 
-public class Usuario extends Application {
+    // Atributos do usuário
+    public String username;
+    public String password;
+    public String email;
+    public boolean ativo;
 
-    @Override
-    public void start(Stage primaryStage) {
-        // Configuração da interface gráfica aqui (exemplo de aplicação JavaFX)
-        primaryStage.setTitle("Aplicação Usuario");
-        primaryStage.show();
+    // Construtor
+    public Usuario(String username, String password, String email) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.ativo = true;  // Definindo como ativo por padrão
     }
 
-    // Método main para lançar a aplicação JavaFX
-    public static void main(String[] args) {
-        launch(args);  // Chama o método launch do JavaFX
+    // Método para verificar se o usuário está ativo
+    public boolean isActive() {
+        return ativo;
+    }
+
+    // Método para exibir as informações do usuário
+    public void exibirInformacoes() {
+        System.out.println("Usuário Criado:");
+        System.out.println("Nome de usuário: " + username);
+        System.out.println("E-mail: " + email);
+        System.out.println("Ativo: " + isActive());
     }
 }
