@@ -1,6 +1,6 @@
 public class EstudanteApp {
 	
-	//public static void main(String[] args){
+	
 		
 		 // Declarando as variáveis
 		int idade = 18;
@@ -19,4 +19,3 @@ public class EstudanteApp {
 	System.out.println("Media: " + media);
 
 }
-//} o main.java foi compilado esse foi o motivo de nao funcionar a principio sem o Main indispensavel
