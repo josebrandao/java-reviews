@@ -1,32 +1,42 @@
-<<<<<<< HEAD
-"# Java Reviews" 
-=======
-📌 Java Reviews
-Este repositório foi criado para revisar os conceitos fundamentais de Java, incluindo exemplos práticos e explicações sobre os principais tópicos da linguagem.
+# 🖥️ Estudo de Java e Kotlin 📚
 
-📖 Conteúdo
-🔹 Tipos Primitivos
-🔹 Classes e Objetos
-🔹 Herança
-🔹 Polimorfismo
-🔹 Encapsulamento
-🔹 Interfaces e Classes Abstratas
-🔹 Tratamento de Exceções
-🔹 Coleções e Generics
-🔹 Streams e Lambda Expressions
-🛠 Como usar
-Clone o repositório:
-sh
-Copiar
-Editar
-git clone https://github.com/josebrandao/java-reviews.git
-Acesse a pasta do projeto:
-sh
-Copiar
-Editar
-cd java-reviews
-Explore os exemplos e execute os códigos conforme necessário.
-📌 Contribuição
-Sinta-se à vontade para sugerir melhorias ou adicionar novos exemplos via pull request!
+Este repositório é dedicado ao estudo de **Java** e **Kotlin**, abordando conceitos fundamentais e avançados de ambas as linguagens.
 
->>>>>>> b22464028bd312b3c24d5d6d4dbb560edf723274
+## 🚀 Conteúdo do Repositório
+
+🔹 **Noções Básicas**  
+  - Conceitos fundamentais de **Java** e **Kotlin**, sintaxe e funcionamento básico.
+
+🔹 **Programação Orientada a Objetos (OOP)**  
+  - Introdução à **OOP** com **Java** e **Kotlin**: classes, objetos, herança, encapsulamento, polimorfismo e abstração.
+
+🔹 **Classes e Atributos**  
+  - Como criar e manipular **classes** e **atributos** em ambas as linguagens.
+
+🔹 **Herança**  
+  - Estudo de **herança**: como uma classe pode herdar atributos e métodos de outra classe.
+
+🔹 **Interoperabilidade entre Java e Kotlin**  
+  - Como **Java** e **Kotlin** podem interagir entre si no mesmo projeto, incluindo chamadas de métodos, uso de classes e herança.
+
+## 🧑‍💻 Laboratório no CodeLabs
+
+Este repositório contém exemplos e laboratórios de prática realizados na plataforma **CodeLabs**, com exercícios que exploram a integração de **Java** e **Kotlin**.
+
+---
+
+📑 **Objetivo**: Este repositório tem como objetivo estudar as principais características dessas linguagens e a interoperabilidade entre elas, aplicando conceitos de **OOP** e práticas de programação.
+
+🚀 **Tecnologias Utilizadas**:
+- Java ☕
+- Kotlin 🟢
+- Git/GitHub 🗂️
+- CodeLabs 🧑‍💻
+
+🔗 **Links úteis**:
+- [Documentação do Java](https://docs.oracle.com/en/java/)
+- [Documentação do Kotlin](https://kotlinlang.org/docs/home.html)
+
+---
+
+# 🚀 Let's Code! 💻
