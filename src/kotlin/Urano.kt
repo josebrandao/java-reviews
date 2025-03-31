@@ -10,6 +10,8 @@ fun main() {
     frame.layout = null
 
     val label = JLabel("Digite o que você quer pesquisar:")
+   val label2 = JLabel("<html>1- Pesquisar ETs<br>2- Pesquisar Naves Espaciais<br>3- Pesquisar Robôs Exploradores de Marte</html>")
+
     label.setBounds(90, 30, 300, 30)
 
     val input = JTextField()
@@ -32,6 +34,7 @@ fun main() {
     }
 
     frame.add(label)
+    frame.add(label2)
     frame.add(input)
     frame.add(button)
     frame.add(result)
