@@ -10,20 +10,20 @@ fun main() {
     frame.layout = null
 
     val label = JLabel("Digite o que você quer pesquisar:")
-   label.setBounds(90, 30, 300, 30)
+   label.setBounds(90, 20, 300, 30)
    val label2 = JLabel("<html>1- Pesquisar ETs<br>2- Pesquisar Naves Espaciais<br>3- Pesquisar Robôs Exploradores de Marte</html>")
    label2.setBounds(90, 50, 300, 60)
 
    
 
     val input = JTextField()
-    input.setBounds(90, 70, 200, 30)
+    input.setBounds(90, 120, 200, 30)
 
     val button = JButton("Pesquisar")
-    button.setBounds(140, 120, 120, 40)
+    button.setBounds(140, 170, 120, 40)
 
     val result = JLabel("")
-    result.setBounds(90, 180, 300, 30)
+    result.setBounds(90, 220, 300, 30)
 
     button.addActionListener {
         val escolha = input.text.toIntOrNull()
